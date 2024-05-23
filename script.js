@@ -30,4 +30,8 @@ btn.addEventListener("click", () => {
   } else {
     res.innerHTML = `${nome.value} seu <strong>IMC</strong> é <strong>${IMC}</strong>. Você está com obesidade grau III. Melhor fazer uma dieta!`;
   }
+
+  nome.value = "";
+  altura.value = "";
+  peso.value = "";
 });
