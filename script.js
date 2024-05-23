@@ -16,18 +16,18 @@ btn.addEventListener("click", () => {
   let IMC = imc.toFixed(1);
 
   if (IMC < 17) {
-    res.innerHTML = `${nome.value} seu  <strong>IMC</strong> é <strong>${IMC}</strong>. você está muito abaixo do peso. Precisa ganhar uns quilinhos!`;
+    res.innerHTML = `${nome.value} seu  <strong>IMC</strong> é <strong>${IMC}</strong>. Você está muito abaixo do peso. Precisa ganhar uns quilinhos!`;
   } else if (IMC < 18.5) {
-    res.innerHTML = `${nome.value} seu <strong>IMC</strong> é <strong>${IMC}</strong>. você está abaixo do peso.`;
+    res.innerHTML = `${nome.value} seu <strong>IMC</strong> é <strong>${IMC}</strong>. Você está abaixo do peso.`;
   } else if (IMC < 25) {
-    res.innerHTML = `${nome.value} seu <strong>IMC</strong> é <strong>${IMC}</strong>. você está com o peso ideal. Parabêns!`;
+    res.innerHTML = `${nome.value} seu <strong>IMC</strong> é <strong>${IMC}</strong>. Você está com o peso ideal. Parabêns!`;
   } else if (IMC < 30) {
-    res.innerHTML = `${nome.value} seu <strong>IMC</strong> é <strong>${IMC}</strong>. você está acima do peso.`;
+    res.innerHTML = `${nome.value} seu <strong>IMC</strong> é <strong>${IMC}</strong>. Você está acima do peso.`;
   } else if (IMC < 35) {
-    res.innerHTML = `${nome.value} seu <strong>IMC</strong> é <strong>${IMC}</strong>. você está com obesidade grau I.`;
+    res.innerHTML = `${nome.value} seu <strong>IMC</strong> é <strong>${IMC}</strong>. Você está com obesidade grau I.`;
   } else if (IMC < 40) {
-    res.innerHTML = `${nome.value} seu <strong>IMC</strong> é <strong>${IMC}</strong>. você está com obesidade grau II.`;
+    res.innerHTML = `${nome.value} seu <strong>IMC</strong> é <strong>${IMC}</strong>. Você está com obesidade grau II.`;
   } else {
-    res.innerHTML = `${nome.value} seu <strong>IMC</strong> é <strong>${IMC}</strong>. você está com obesidade grau III. Melhor fazer uma dieta!`;
+    res.innerHTML = `${nome.value} seu <strong>IMC</strong> é <strong>${IMC}</strong>. Você está com obesidade grau III. Melhor fazer uma dieta!`;
   }
 });
