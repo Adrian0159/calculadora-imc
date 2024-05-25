@@ -15,7 +15,9 @@ btn.addEventListener("click", () => {
   let imc = pso / (alt * alt);
   let IMC = imc.toFixed(1);
 
-  if (IMC < 17) {
+  if (nome.value === "" || altura.value === "" || peso.value === "") {
+    res.innerHTML = `Preencha todos os compos para ver o resultado.`;
+  } else if (IMC < 17) {
     res.innerHTML = `${nome.value} seu  <strong>IMC</strong> é <strong>${IMC}</strong>. Você está muito abaixo do peso. Precisa ganhar uns quilinhos!`;
   } else if (IMC < 18.5) {
     res.innerHTML = `${nome.value} seu <strong>IMC</strong> é <strong>${IMC}</strong>. Você está abaixo do peso.`;

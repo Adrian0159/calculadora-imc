@@ -2,14 +2,14 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
   border-bottom: 5px solid black;
   text-align: center;
-  padding: 22px 0 4px 0;
+  padding: 22px 0 16px 0;
   font-size: 38px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 main {
@@ -28,7 +28,7 @@ section {
 }
 
 .container {
-  padding: 36px 48px 24px 48px;
+  padding: 36px 24px 24px 24px;
 }
 
 .campo-text {
@@ -40,11 +40,15 @@ section {
   margin-bottom: 24px;
 }
 
+label {
+  font-size: 28px;
+}
+
 input {
   border: none;
   font-size: 20px;
   font-weight: bold;
-  max-width: 188px;
+  max-width: 196px;
   text-align: center;
   padding: 16px 0;
   border-radius: 4px;
@@ -63,19 +67,19 @@ input:focus {
 #btn {
   width: 100%;
   padding: 10px 0;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
   letter-spacing: 1px;
   border-radius: 6px;
   background-color: black;
-  color: #ffc600;
+  color: #ffffff;
   cursor: pointer;
 }
 
 .res {
   border-radius: 8px;
   background-color: black;
-  color: #ffc600;
+  color: #ffffff;
   font-style: italic;
   min-height: 160px;
   margin-top: 36px;
@@ -84,16 +88,12 @@ input:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 24px 0;
   line-height: 32px;
-}
-
-#resultado {
-  width: 232px;
+  padding: 0 24px;
 }
 
 strong {
-  color: #fff;
+  color: #ffc600;
   font-style: normal;
   font-family: Arial, Helvetica, sans-serif;
 }
